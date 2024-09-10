@@ -1,4 +1,4 @@
-import thumbnail from "../assets/thumbnail.png";
+import circle from "../assets/circle.png";
 import "../About.css";
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <img src={thumbnail} />
+          <img src={circle} />
           <div class="description">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
             assumenda cum accusantium exercitationem eius dolor, libero,
@@ -21,6 +21,13 @@ export default function About() {
             repellendus aut magnam nesciunt vel ab impedit iure quia harum eaque
             voluptates quidem voluptate saepe, expedita dignissimos. Possimus,
             exercitationem!
+          </div>
+        </div>
+        <div className="education">
+          <h2>Education</h2>
+          <div>
+            University of Waterloo, BASc in Computer Engineering, Honours, Co-op
+            | Sept 2024 - May 2029 |
           </div>
         </div>
       </div>

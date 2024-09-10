@@ -1,15 +1,16 @@
 import React from "react";
 import { Chrono } from "react-chrono";
+import "../Experience.css";
 
 export default function Experience() {
   const items = [
     {
-      title: "Creative Director",
-      cardTitle: "Creative Director",
-      cardSubtitle: "Miami, FL",
+      title: "Coding Lesson Developer and Executive",
+      cardTitle: "Coding Lesson Developer and Executive",
+      cardSubtitle: "Vancouver, FL",
       cardDetailedText:
         "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
-      date: "2011 - present",
+      date: "2023",
     },
     {
       title: "Art Director",
@@ -36,9 +37,18 @@ export default function Experience() {
   ];
 
   return (
-    <div style={{ width: "500px", height: "950px" }}>
+    <div className="timeline" style={{ width: "700px", height: "950px" }}>
       <h1>Experience</h1>
-      <Chrono items={items} mode="VERTICAL" />
+      <div className="chrono">
+        <Chrono
+          items={items}
+          slideShow
+          slideItemDuration={1000}
+          slideShowType="reveal"
+          mode="VERTICAL" // Adjust mode as needed
+          disableToolbar={true}
+        />{" "}
+      </div>
     </div>
   );
 }

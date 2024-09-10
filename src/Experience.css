@@ -1,0 +1,17 @@
+.timeline {
+  margin-left: 200px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.chrono {
+  align-self: center;
+}
+
+.timeline h1 {
+  margin-bottom: 50px;
+}

@@ -5,7 +5,7 @@ export default function Name() {
     <>
       <div class="middle-container">
         <div className="desc">
-          Computer Engineering Student at the University of Waterloo
+          Computer Engineering Student at The University of Waterloo
         </div>
         <div className="name-container">
           <div className="text">Hello I'm Gordon</div>

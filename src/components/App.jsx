@@ -16,9 +16,11 @@ function App() {
         </div>
       </div>
 
-      <div className="about">
-        <About />
-      </div>
+      <section id="about">
+        <div className="about">
+          <About />
+        </div>
+      </section>
     </>
   );
 }

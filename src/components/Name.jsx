@@ -4,7 +4,7 @@ export default function Name() {
   return (
     <>
       <div class="middle-container">
-        <div className="desc">
+        <div className="desc space-grotesk-body">
           Computer Engineering Student at The University of Waterloo
         </div>
         <div className="name-container">

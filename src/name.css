@@ -9,8 +9,9 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: monospace;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 2em;
+  font-weight: 1000;
 }
 
 /* cursor blinking */
@@ -26,7 +27,7 @@
     width: 0;
   }
   to {
-    width: 17ch;
+    width: 13ch;
   }
 }
 
@@ -40,9 +41,10 @@
   color: #ffffff;
   cursor: pointer;
   flex: 0 0 auto;
-  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Space Grotesk, Inter var", ui-sans-serif, system-ui,
+    -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.5rem;
@@ -135,4 +137,11 @@
   display: flex;
   width: 220px;
   justify-content: space-between;
+}
+
+.space-grotesk-body {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

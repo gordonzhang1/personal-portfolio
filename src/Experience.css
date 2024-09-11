@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 300px;
+  z-index: 1;
+  font-family: "Space Grotesk";
 }
 
 .chrono {

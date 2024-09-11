@@ -1,0 +1,17 @@
+.contact-container {
+  margin-top: 10vw;
+  margin-left: 12vw;
+  margin-bottom: 20vh;
+  font-family: "Space Grotesk";
+}
+
+.git,
+.res,
+.email,
+.lin {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}

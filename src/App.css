@@ -1,6 +1,21 @@
 .landing {
-  height: 900px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.experience-section {
+  scroll-margin-top: 160px; /* Adjust this value to match the height of your navbar */
+}
+
+.skills-app {
+  scroll-margin-top: 80px; /* Adjust this value to match the height of your navbar */
+}
+
+.about-section {
+  scroll-margin-top: 80px; /* Adjust this value to match the height of your navbar */
+}
+
+.projects-section {
+  scroll-margin-top: 80px; /* Adjust this value to match the height of your navbar */
 }

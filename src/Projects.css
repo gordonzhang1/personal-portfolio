@@ -1,0 +1,19 @@
+.projects {
+  margin-top: 300px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 200px;
+  height: 100vh;
+  font-family: "Space Grotesk";
+}
+
+.project-cards {
+  display: flex;
+  gap: 50px;
+}
+
+.projects-header {
+  font-weight: 800;
+}

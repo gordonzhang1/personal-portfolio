@@ -1,41 +1,27 @@
-import { Link } from "react-router-dom";
 import "../nav.css";
 
 export default function Nav() {
   return (
     <>
-      <nav class="navbar fixed-top bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <div className="card text-center">
-              <div className="card-header">
-                <ul className="nav nav-pills card-header-pills">
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#about">
-                      About Me
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#experience">
-                      Experience
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#projects">
-                      Projects
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </a>
+      <div className="big-nav">
+        <div className="nav-container">
+          <div className="home.nav">
+            <a href="#">Home</a>
+          </div>
+          <div className="about-nav">
+            <a href="#about">About</a>
+          </div>
+          <div className="experience-nav">
+            <a href="#experience">Experience</a>
+          </div>
+          <div className="projects-nav">
+            <a href="#projects">Projects</a>
+          </div>
+          <div className="skills-nav">
+            <a href="#skills">Skills</a>
+          </div>
         </div>
-      </nav>
+      </div>
     </>
   );
 }

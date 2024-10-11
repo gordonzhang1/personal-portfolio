@@ -5,11 +5,29 @@ export default function Contact() {
     <>
       <div className="contact-container">
         <h1>Contact</h1>
-        <ul>
-          <li className="email">Email: gordonz0913@gmail.com</li>
-          <li>Waterloo Email: g234zhan@uwaterloo.ca</li>
+        <ul className="info-container-contact">
+          <li className="email">
+            Email:&nbsp;
+            <a
+              href="mailto:gordonz0913@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              gordonz0913@gmail.com
+            </a>
+          </li>
+          <li className="school-email">
+            School Email:&nbsp;
+            <a
+              href="mailto:g234zhan@uwaterloo.ca"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              g234zhan@uwaterloo.ca
+            </a>
+          </li>{" "}
           <li className="lin">
-            LinkedIn:{" "}
+            LinkedIn:&nbsp;
             <a
               href="https://linkedin.com/in/gordonzhang1"
               target="_blank"
@@ -19,7 +37,7 @@ export default function Contact() {
             </a>
           </li>
           <li className="git">
-            GitHub:{" "}
+            GitHub:&nbsp;
             <a
               href="https://github.com/gordonzhang1"
               target="_blank"
@@ -29,7 +47,7 @@ export default function Contact() {
             </a>
           </li>
           <li className="res">
-            Resume:{" "}
+            Resume:&nbsp;
             <a
               href="https://linkedin.com/in/gordonzhang1"
               target="_blank"

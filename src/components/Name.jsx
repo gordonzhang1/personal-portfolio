@@ -20,11 +20,7 @@ export default function Name() {
               Resume
             </button>
           </a>
-          <a
-            href="https://www.google.com"
-            target="blank"
-            rel="noopener noreferrer"
-          >
+          <a href="#contact">
             <button class="contact-button" role="button">
               Contact
             </button>

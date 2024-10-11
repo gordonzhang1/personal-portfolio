@@ -1,8 +1,11 @@
 .contact-container {
   margin-top: 10vw;
-  margin-left: 12vw;
+  margin-left: 14vw;
   margin-bottom: 20vh;
   font-family: "Space Grotesk";
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .git,
@@ -14,4 +17,14 @@
 
 a {
   text-decoration: none;
+}
+
+.info-container-contact {
+  flex-direction: column;
+  display: flex;
+}
+
+.info-container-contact li {
+  align-self: flex-start;
+  display: flex;
 }

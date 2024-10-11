@@ -43,7 +43,7 @@ function App() {
         </div>
       </section>
 
-      <section>
+      <section id="contact" className="contact-app">
         <div>
           <Contact />
         </div>

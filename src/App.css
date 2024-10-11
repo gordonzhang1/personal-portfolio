@@ -5,7 +5,7 @@
   align-items: center;
 }
 .experience-section {
-  scroll-margin-top: 160px; /* Adjust this value to match the height of your navbar */
+  scroll-margin-top: 200px; /* Adjust this value to match the height of your navbar */
 }
 
 .skills-app {
@@ -17,5 +17,9 @@
 }
 
 .projects-section {
+  scroll-margin-top: 80px; /* Adjust this value to match the height of your navbar */
+}
+
+.contact-app {
   scroll-margin-top: 80px; /* Adjust this value to match the height of your navbar */
 }

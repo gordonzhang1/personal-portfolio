@@ -37,7 +37,7 @@ export default function Experience() {
   ];
 
   return (
-    <div className="timeline" style={{ width: "700px", height: "950px" }}>
+    <div className="timeline" style={{ width: "65vw", height: "100vh" }}>
       <h1>Experience</h1>
       <div className="chrono">
         <Chrono

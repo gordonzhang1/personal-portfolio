@@ -25,7 +25,7 @@ export default function Contact() {
             >
               g234zhan@uwaterloo.ca
             </a>
-          </li>{" "}
+          </li>
           <li className="lin">
             LinkedIn:&nbsp;
             <a

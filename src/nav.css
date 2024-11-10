@@ -9,6 +9,8 @@
   background-color: white; /* Optional: background color to cover content beneath */
   z-index: 1000; /* Ensure it stays above other content */
   font-family: "Space Grotesk";
+  width: 40vw;
+  justify-content: center;
 }
 
 .big-nav {
@@ -27,4 +29,9 @@
 }
 .nav-container a:hover {
   color: blue; /* Color change on hover */
+}
+
+.home-container {
+  display: flex;
+  gap: 3vw;
 }

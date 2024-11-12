@@ -12,14 +12,13 @@ import node from "../assets/node.png";
 import docker from "../assets/docker.png";
 import git from "../assets/git.png";
 import webpack from "../assets/webpack.png";
-import firebase from "../assets/firebase.png";
 import tailwind from "../assets/tailwind.png";
 
 export default function Skills() {
   return (
     <>
       <div className="skills-container">
-        <h1 className="skills-h1">Techincal Skills</h1>
+        <h1 className="skills-h1">Technical Skills</h1>
 
         <div className="skills">
           <div className="lan">

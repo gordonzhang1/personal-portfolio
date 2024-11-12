@@ -1,19 +1,42 @@
 .projects {
-  margin-top: 300px;
-  margin-left: 200px;
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin-bottom: 200px;
-  height: 100vh;
-  font-family: "Space Grotesk";
+  gap: 5%;
+  gap: 2vh;
 }
 
-.project-cards {
+.card-container {
+  padding: 1rem;
+  border: 3px solid black;
   display: flex;
-  gap: 50px;
+  border-radius: 10px;
+  gap: 1vw;
 }
 
-.projects-header {
-  font-weight: 800;
+.loo {
+  width: 60%;
+  height: 30vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.loo-skills {
+  display: flex;
+  gap: 1vw;
+}
+
+.loo-skill-item {
+  height: 5vh;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
 }

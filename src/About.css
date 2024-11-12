@@ -1,9 +1,6 @@
 .about-container-large {
   display: flex;
   flex-direction: column;
-  margin-left: 10vw; /* Adjust for responsiveness */
-  margin-bottom: 5vh; /* Adjust for responsiveness */
-  width: 65vw; /* Use a percentage for fluid resizing */
   height: auto; /* Adjust height for responsive layout */
   font-family: "Space Grotesk";
   height: 100vh;

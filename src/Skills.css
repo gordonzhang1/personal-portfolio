@@ -1,6 +1,4 @@
 .skills-container {
-  width: 60vw;
-  margin-left: 200px;
   font-family: "Space Grotesk";
 }
 
@@ -47,7 +45,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
+  width: 110px;
   aspect-ratio: 1;
   background: linear-gradient(-45deg, #655a62, #d7b090 75%);
   border-radius: 50%;
@@ -121,7 +119,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(150px, 1fr)
+    minmax(110px, 1fr)
   ); /* Adjust to screen size */
   row-gap: 4vh;
 }

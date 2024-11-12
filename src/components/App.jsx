@@ -20,31 +20,35 @@ function App() {
             </div>
           </div>
         </div>
-        <section id="about" className="about-section">
-          <div className="about">
-            <About />
+        <div className="outer-everything">
+          <div className="everything-container">
+            <section id="about" className="about-section">
+              <div className="about">
+                <About />
+              </div>
+            </section>
+            <section id="skills" className="skills-app">
+              <div>
+                <Skills />
+              </div>
+            </section>
+            <section id="experience" className="experience-section">
+              <div className="experience-app">
+                <Experience />
+              </div>
+            </section>
+            <section id="projects" className="projects-section">
+              <div>
+                <Projects />
+              </div>
+            </section>
+            <section id="contact" className="contact-app">
+              <div>
+                <Contact />
+              </div>
+            </section>
           </div>
-        </section>
-        <section id="skills" className="skills-app">
-          <div>
-            <Skills />
-          </div>
-        </section>
-        <section id="experience" className="experience-section">
-          <div className="experience-app">
-            <Experience />
-          </div>
-        </section>
-        <section id="projects" className="projects-section">
-          <div>
-            <Projects />
-          </div>
-        </section>
-        <section id="contact" className="contact-app">
-          <div>
-            <Contact />
-          </div>
-        </section>
+        </div>
       </div>
     </>
   );

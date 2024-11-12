@@ -30,6 +30,7 @@ export default function About() {
             | Sept 2024 - May 2029 |
           </div>
         </div>
+        <h2>Current Projects</h2>
       </div>
     </>
   );

@@ -6,16 +6,6 @@ export default function Contact() {
       <div className="contact-container">
         <h1>Contact</h1>
         <ul className="info-container-contact">
-          <li className="email">
-            Email:&nbsp;
-            <a
-              href="mailto:gordonz0913@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              gordonz0913@gmail.com
-            </a>
-          </li>
           <li className="school-email">
             School Email:&nbsp;
             <a

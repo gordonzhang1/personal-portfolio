@@ -1,11 +1,9 @@
 .contact-container {
   margin-top: 10vw;
-  margin-left: 14vw;
   margin-bottom: 20vh;
   font-family: "Space Grotesk";
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .git,

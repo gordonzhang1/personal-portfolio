@@ -18,22 +18,31 @@ body {
   justify-content: center;
   align-items: center;
 }
-.experience-section {
-  scroll-margin-top: 200px;
-}
 
 .skills-app {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 10vh;
 }
 
 .about-section {
-  scroll-margin-top: 80px;
-}
-
-.projects-section {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 10vh;
 }
 
 .contact-app {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 10vh;
+}
+
+.experience-section {
+  scroll-margin-top: 10vh;
+}
+
+.everything-container {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+}
+
+.outer-everything {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

@@ -47,11 +47,10 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 9vw;
-  height: 15.7vh;
-  background: linear-gradient(-45deg, #8b4513, #d2b48c);
+  width: 120px;
+  aspect-ratio: 1;
+  background: linear-gradient(-45deg, #655a62, #d7b090 75%);
   border-radius: 50%;
-  padding: 16px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   position: relative; /* Added relative positioning */
   animation: bounce 2s ease-in-out infinite; /* Bounce animation */
@@ -59,16 +58,36 @@ h2 {
 
 /* Image styling */
 .python-image {
-  width: 10vw;
-  height: 10vh;
+  width: 50%;
+  height: 50%;
   object-fit: contain;
   transform: scale(1.1); /* Slightly enlarged by default */
   transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
 }
 
+.ts {
+  width: 50%;
+  height: 50%;
+}
+
+.c {
+  width: 60%;
+  height: 60%;
+}
+
+.cplus {
+  width: 60%;
+  height: 60%;
+}
+
+.skills-h1,
+h2 {
+  font-weight: 900;
+}
+
 /* Spin effect when hovering */
 .sphere-container:hover .python-image {
-  animation: spin 2s linear infinite; /* Spins the image */
+  animation: spin 1s linear infinite; /* Spins the image */
 }
 
 .skill-shadow {
@@ -83,11 +102,51 @@ h2 {
   );
 
   animation: shadowBounce 2s ease-in-out infinite;
+  align-self: center;
 }
 
 .sphere-and-shadow {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.sphere-space-shadow {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+}
+
+.outer-skills-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(150px, 1fr)
+  ); /* Adjust to screen size */
+  row-gap: 4vh;
+}
+
+.six {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.five {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.java {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.h2-p {
+  margin-bottom: 6vh;
+}
+
+.tools-h {
+  margin-bottom: 6vh;
 }
 
 /* Keyframes for spin animation */
@@ -107,7 +166,7 @@ h2 {
     transform: translateY(0); /* Start and end at the original position */
   }
   50% {
-    transform: translateY(-10px); /* Move the sphere upwards */
+    transform: translateY(-15px); /* Move the sphere upwards */
   }
 }
 @keyframes shadowBounce {

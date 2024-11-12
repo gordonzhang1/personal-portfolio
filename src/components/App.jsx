@@ -25,6 +25,11 @@ function App() {
             <About />
           </div>
         </section>
+        <section id="skills" className="skills-app">
+          <div>
+            <Skills />
+          </div>
+        </section>
         <section id="experience" className="experience-section">
           <div className="experience-app">
             <Experience />
@@ -33,11 +38,6 @@ function App() {
         <section id="projects" className="projects-section">
           <div>
             <Projects />
-          </div>
-        </section>
-        <section id="skills" className="skills-app">
-          <div>
-            <Skills />
           </div>
         </section>
         <section id="contact" className="contact-app">

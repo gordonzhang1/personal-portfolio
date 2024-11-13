@@ -7,7 +7,7 @@ export default function Contact() {
         <h1>Contact</h1>
         <ul className="info-container-contact">
           <li className="school-email">
-            School Email:&nbsp;
+            Email:&nbsp;
             <a
               href="mailto:g234zhan@uwaterloo.ca"
               target="_blank"

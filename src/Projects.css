@@ -15,8 +15,9 @@
 }
 
 .loo {
-  width: 60%;
-  height: 30vh;
+  width: 50%;
+  height: auto;
+  object-fit: cover; /* Prevents image distortion */
   margin: 0;
   padding: 0;
 }

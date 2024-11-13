@@ -2,15 +2,36 @@
   display: flex;
   gap: 2vw;
   border: 1px solid grey;
-  padding: 15px 25px; /* Add some padding inside each nav button */
-  border-radius: 40px; /* Optional: rounded corners */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 15px 25px;
+  border-radius: 40px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
-  background-color: white; /* Optional: background color to cover content beneath */
-  z-index: 1000; /* Ensure it stays above other content */
+  background-color: white;
+  z-index: 1000;
   font-family: "Space Grotesk";
   width: 40vw;
   justify-content: center;
+}
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+  .nav-container {
+    width: 60vw; /* Reduce width */
+    gap: 1.5vw; /* Reduce gap */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 30px; /* Slightly smaller border radius */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .nav-container {
+    width: 80vw; /* Increase width to fit smaller screens */
+    gap: 1vw; /* Further reduce gap */
+    padding: 8px 15px; /* Smaller padding for mobile */
+    border-radius: 20px; /* Smaller border radius for compact look */
+    box-shadow: none; /* Remove shadow for cleaner mobile design */
+  }
 }
 
 .big-nav {
@@ -34,4 +55,5 @@
 .home-container {
   display: flex;
   gap: 3vw;
+  flex-wrap: wrap;
 }

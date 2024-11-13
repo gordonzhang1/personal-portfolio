@@ -4,7 +4,7 @@ import ts from "../assets/tsnewnew.png";
 import c from "../assets/cnew.png";
 import cplus from "../assets/cplusnew.png";
 import python from "../assets/pythonnew.png";
-import html from "../assets/htmlnew.png";
+import html from "../assets/htmlnewnew.png";
 import css from "../assets/cssnew.png";
 import java from "../assets/javanew.png";
 import react from "../assets/react.png";

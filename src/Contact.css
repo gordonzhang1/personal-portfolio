@@ -4,6 +4,11 @@
   font-family: "Space Grotesk";
   display: flex;
   flex-direction: column;
+  gap: 2vh;
+}
+
+.contact-desc {
+  width: 40vw;
 }
 
 .git,
@@ -20,6 +25,8 @@ a {
 .info-container-contact {
   flex-direction: column;
   display: flex;
+  gap: 1vh;
+  font-size: 1.1rem;
 }
 
 .info-container-contact li {

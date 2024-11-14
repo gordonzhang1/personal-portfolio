@@ -5,6 +5,10 @@ export default function Contact() {
     <>
       <div className="contact-container">
         <h1>Contact</h1>
+        <div className="contact-desc">
+          Interested in working together? I’m always open to new opportunities
+          and collaborations. Drop me a message!
+        </div>
         <ul className="info-container-contact">
           <li className="school-email">
             Email:&nbsp;
@@ -44,6 +48,12 @@ export default function Contact() {
               rel="noopener noreferrer"
             >
               linkedin.com/in/gordonzhang1
+            </a>
+          </li>
+          <li className="res">
+            Phone:&nbsp;
+            <a href="tel:7787980399" target="_blank" rel="noopener noreferrer">
+              +1 (778)-798-0399
             </a>
           </li>
         </ul>

@@ -1,0 +1,10 @@
+.footer-container {
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  font-family: "Space Grotesk";
+  color: grey;
+}

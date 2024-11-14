@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Nav from "./Nav";
+import Footer from "./Footer";
 function App() {
   return (
     <>
@@ -47,6 +48,9 @@ function App() {
                 <Contact />
               </div>
             </section>
+            <div>
+              <Footer />
+            </div>
           </div>
         </div>
       </div>

@@ -13,14 +13,12 @@ export default function About() {
         <div className="description-container">
           <img src={circle} />
           <div class="description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
-            assumenda cum accusantium exercitationem eius dolor, libero,
-            voluptatibus necessitatibus itaque impedit similique eligendi. In
-            nulla, asperiores quae repellendus ratione dolore fugiat?Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Officia et vitae,
-            repellendus aut magnam nesciunt vel ab impedit iure quia harum eaque
-            voluptates quidem voluptate saepe, expedita dignissimos. Possimus,
-            exercitationem!
+            Hi! I’m Gordon Zhang, an aspiring software developer with a strong
+            interest in full-stack development, embedded systems, and machine
+            learning. I thrive on creating scalable, efficient solutions that
+            address real-world challenges and optimize user experiences.
+            Originally from Vancouver, BC, I’m now based in Waterloo, ON, hoping
+            to make an impact by developing world changing technologies.
           </div>
         </div>
         <div className="education">
@@ -30,7 +28,6 @@ export default function About() {
             | Sept 2024 - May 2029 |
           </div>
         </div>
-        <h2>Current Projects</h2>
       </div>
     </>
   );

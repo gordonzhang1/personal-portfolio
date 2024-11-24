@@ -31,6 +31,8 @@
 .loo-skills {
   display: flex;
   gap: 1vw;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .loo-skill-item {

@@ -14,9 +14,9 @@ export default function About() {
           <img src={circle} />
           <div class="description">
             Hi! I’m Gordon Zhang, an aspiring software developer with a strong
-            interest in full-stack development, embedded systems, and machine
-            learning. I thrive on creating scalable, efficient solutions that
-            address real-world challenges and optimize user experiences.
+            interest in full-stack development, machine learning, and embedded
+            systems. I'm passionate about creating scalable, efficient solutions
+            that address real-world challenges and optimize user experiences.
             Originally from Vancouver, BC, I’m now based in Waterloo, ON, hoping
             to make an impact by developing world changing technologies.
           </div>

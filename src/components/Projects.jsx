@@ -15,6 +15,9 @@ import git from "../assets/git.png";
 import webpack from "../assets/webpack.png";
 import tailwind from "../assets/tailwind.png";
 import firebase from "../assets/firebase.png";
+import openai from "../assets/OpenAI.png";
+import cloud from "../assets/cloud.png";
+import YAML from "../assets/YAML.png";
 export default function Projects() {
   // Array of project data
 
@@ -25,18 +28,20 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header">
             <h2>LooLooLoo | Hack the North Winner</h2>
-            <a href="google.com">View Project</a>
+            <a href="google.com" target="_blank">
+              View Project
+            </a>
           </div>
           <div className="desc-container">
             <p>Water Water Water, Loo Loo Loo!</p>
             <p>
-              LooLooLoo is a full-stack web app that directs you to the nearest
-              washroom when you drink from a water fountain. When you drink from
-              a water fountain, an ESP32 microcontroller detects the bluetooth
-              signal from your phone, and using Twilio, sends an SMS containing
-              a custom link. This link directs you to the LooLooLoo web app,
-              featuring an interactive 3D map that guides you from your exact
-              location to the nearest washroom in the building.
+              LooLooLoo is a indoor mapping web app that directs you to the
+              nearest washroom when you drink from a water fountain. When you
+              drink from a water fountain, an ESP32 microcontroller detects the
+              bluetooth signal from your phone, and using Twilio, sends an SMS
+              containing a custom link. This link directs you to the LooLooLoo
+              web app, featuring an interactive 3D map that guides you from your
+              exact location to the nearest washroom in the building.
             </p>
           </div>
           <div className="loo-skills">
@@ -47,6 +52,7 @@ export default function Projects() {
             <img className="loo-skill-item" src={react} />
             <img className="loo-skill-item" src={git} />
             <img className="loo-skill-item" src={node} />
+            <img className="loo-skill-item" src={YAML} />
           </div>
         </div>
         <img className="loo" src={loo} />
@@ -55,7 +61,43 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header">
             <h2>ShakespeareAI</h2>
-            <a href="google.com">View Project</a>
+            <a href="google.com" target="_blank">
+              View Project
+            </a>
+          </div>
+          <p>
+            ShakespeareAI is a AI digital note-taking web app that quizzes you
+            based on your handwritten notes in real-time. With just the push of
+            a button, ShakespeareAI transforms your notes into a personalized
+            set of questions, helping you retain information more effectively.
+            Built with React & Node.js, the app features a user-friendly
+            note-taking interface, and securely stores them to your account
+          </p>
+          <div className="loo-skills">
+            <img className="loo-skill-item" src={js} />
+            <img className="loo-skill-item" src={html} />
+            <img className="loo-skill-item" src={css} />
+            <img className="loo-skill-item" src={react} />
+            <img className="loo-skill-item" src={git} />
+            <img className="loo-skill-item" src={node} />
+            <img className="loo-skill-item" src={firebase} />
+            <img className="loo-skill-item" src={cplus} />
+            <img className="loo-skill-item" src={openai} />
+            <img className="loo-skill-item" src={cloud} />
+          </div>
+        </div>
+        <img className="loo" src={loo} />
+      </div>
+      <div className="card-container">
+        <div className="header-desc">
+          <div className="box-header">
+            <h2>Personal Portfolio</h2>
+            <a
+              href="https://github.com/gordonzhang1/personal-portfolio"
+              target="_blank"
+            >
+              View Project
+            </a>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
@@ -68,13 +110,10 @@ export default function Projects() {
           </p>
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
-            <img className="loo-skill-item" src={ts} />
             <img className="loo-skill-item" src={html} />
             <img className="loo-skill-item" src={css} />
             <img className="loo-skill-item" src={react} />
             <img className="loo-skill-item" src={git} />
-            <img className="loo-skill-item" src={node} />
-            <img className="loo-skill-item" src={firebase} />
           </div>
         </div>
         <img className="loo" src={loo} />

@@ -99,15 +99,7 @@ export default function Projects() {
               View Project
             </a>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
-            deserunt dolorem eligendi, saepe eum facilis vel delectus vitae. A
-            labore doloremque ratione amet quia earum tempore exercitationem
-            animi beatae totam? Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Vel modi veniam adipisci optio similique quidem
-            fuga voluptatibus quod quae corporis, ad dicta velit aspernatur,
-            impedit consequuntur, eius illo magnam sit.
-          </p>
+          <p>My Portfolio Project</p>
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
             <img className="loo-skill-item" src={html} />

@@ -8,7 +8,16 @@ export default function Name() {
           Computer Engineering Student at The University of Waterloo
         </div>
         <div className="name-container">
-          <div className="text">Hello I'm Gordon</div>
+          <div className="text">
+            Hello I'm{" "}
+            <span
+              style={{
+                color: "#0d51e5",
+              }}
+            >
+              Gordon
+            </span>
+          </div>
         </div>
         <div className="resumeButtons">
           <a

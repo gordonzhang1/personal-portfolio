@@ -11,7 +11,24 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <img src={circle} />
+          <div
+            style={{
+              width: "100%",
+              height: 0,
+              paddingBottom: "20%",
+              position: "relative",
+            }}
+          >
+            <iframe
+              src="https://giphy.com/embed/3o7qE1YN7aBOFPRw8E"
+              width="120%"
+              height="120%"
+              style={{ position: "absolute" }}
+              frameBorder="0"
+              className="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </div>
           <div class="description">
             Hi! I’m Gordon Zhang, an aspiring software developer with a strong
             interest in full-stack development, machine learning, and embedded

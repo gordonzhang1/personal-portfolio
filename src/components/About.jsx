@@ -15,7 +15,7 @@ export default function About() {
             style={{
               width: "100%",
               height: 0,
-              paddingBottom: "20%",
+              paddingBottom: "15%",
               position: "relative",
             }}
           >

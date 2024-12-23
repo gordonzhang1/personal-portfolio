@@ -9,7 +9,7 @@ export default function Experience() {
       <div className="experience-items">
         <div className="item1">
           <h2>Full Stack Developer</h2>
-          <p class="date-location">BLNDSPT | Oct 2024 -- Present</p>
+          <p class="date-location">BLNDSPT Productions | Oct 2024 -- Present</p>
           <ul className="experience-ul-1">
             <li>
               Developed and designed user-friendly <strong>E-Commerce</strong>{" "}
@@ -53,7 +53,7 @@ export default function Experience() {
         <div className="item3">
           <h2>Software Curriculum Developer & Associate Founder</h2>
           <p class="date-location">
-            ARTex Coding Society | Oct 2024 -- Present
+            ARTex Coding Society | Jan 2023 -- May 2024
           </p>
           <ul className="experience-ul-1">
             <li>
@@ -86,7 +86,7 @@ export default function Experience() {
         </div>
         <div className="item4">
           <h2>Web Development Instructor</h2>
-          <p class="date-location">StudyPug | Oct 2024 -- Present</p>
+          <p class="date-location">StudyPug | Mar 2023 -- Apr 2023</p>
           <ul className="experience-ul-1">
             <li>
               Delivered hands-on instruction in <strong>HTML/CSS</strong> and{" "}

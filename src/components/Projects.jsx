@@ -18,12 +18,46 @@ import firebase from "../assets/firebase.png";
 import openai from "../assets/OpenAI.png";
 import cloud from "../assets/cloud.png";
 import YAML from "../assets/YAML.png";
+import sa from "../assets/sa-cover.jpeg";
+import portfolio from "../assets/portfolio.png";
 export default function Projects() {
   // Array of project data
 
   return (
     <div className="projects">
       <h1 className="projects-header">Projects</h1>
+      <div className="card-container">
+        <div className="header-desc">
+          <div className="box-header">
+            <h2>ShakespeareAI</h2>
+            <a href="google.com" target="_blank">
+              View Project
+            </a>
+          </div>
+          <p>
+            ShakespeareAI is a AI digital note-taking web app that quizzes you
+            based on your handwritten notes in real-time. Press Quiz Me, and
+            ShakespeareAI transforms your notes and drawings into a personalized
+            set of questions, helping you retain information more effectively.
+            Built with React & Node.js, the app features a user-friendly
+            note-taking interface, and securely stores them to your account. Try
+            it for yourself by signing up now!
+          </p>
+          <div className="loo-skills">
+            <img className="loo-skill-item" src={js} />
+            <img className="loo-skill-item" src={html} />
+            <img className="loo-skill-item" src={css} />
+            <img className="loo-skill-item" src={react} />
+            <img className="loo-skill-item" src={git} />
+            <img className="loo-skill-item" src={node} />
+            <img className="loo-skill-item" src={firebase} />
+            <img className="loo-skill-item" src={cplus} />
+            <img className="loo-skill-item" src={openai} />
+            <img className="loo-skill-item" src={cloud} />
+          </div>
+        </div>
+        <img className="loo sa" src={sa} />
+      </div>
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
@@ -57,40 +91,10 @@ export default function Projects() {
         </div>
         <img className="loo" src={loo} />
       </div>
+
       <div className="card-container">
         <div className="header-desc">
-          <div className="box-header">
-            <h2>ShakespeareAI</h2>
-            <a href="google.com" target="_blank">
-              View Project
-            </a>
-          </div>
-          <p>
-            ShakespeareAI is a AI digital note-taking web app that quizzes you
-            based on your handwritten notes in real-time. With just the push of
-            a button, ShakespeareAI transforms your notes into a personalized
-            set of questions, helping you retain information more effectively.
-            Built with React & Node.js, the app features a user-friendly
-            note-taking interface, and securely stores them to your account
-          </p>
-          <div className="loo-skills">
-            <img className="loo-skill-item" src={js} />
-            <img className="loo-skill-item" src={html} />
-            <img className="loo-skill-item" src={css} />
-            <img className="loo-skill-item" src={react} />
-            <img className="loo-skill-item" src={git} />
-            <img className="loo-skill-item" src={node} />
-            <img className="loo-skill-item" src={firebase} />
-            <img className="loo-skill-item" src={cplus} />
-            <img className="loo-skill-item" src={openai} />
-            <img className="loo-skill-item" src={cloud} />
-          </div>
-        </div>
-        <img className="loo" src={loo} />
-      </div>
-      <div className="card-container">
-        <div className="header-desc">
-          <div className="box-header">
+          <div className="box-header portfolio">
             <h2>Personal Portfolio</h2>
             <a
               href="https://github.com/gordonzhang1/personal-portfolio"
@@ -108,7 +112,6 @@ export default function Projects() {
             <img className="loo-skill-item" src={git} />
           </div>
         </div>
-        <img className="loo" src={loo} />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ export default function Experience() {
             <li>
               Developed and designed user-friendly <strong>E-Commerce</strong>{" "}
               web app with <strong>React & Node.js</strong> by directly working
-              with cleint to suite their needs, boosting brand recognition by
+              with client to suite their needs, boosting brand recognition by
               <strong> 300%</strong>
             </li>
             <li>

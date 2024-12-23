@@ -20,6 +20,7 @@
   object-fit: cover; /* Prevents image distortion */
   margin: 0;
   padding: 0;
+  border-radius: 5px;
 }
 
 .header-desc {

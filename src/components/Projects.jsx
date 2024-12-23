@@ -30,8 +30,11 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header">
             <h2>ShakespeareAI</h2>
-            <a href="google.com" target="_blank">
-              View Project
+            <a
+              href="https://github.com/gordonzhang1/ShakespeareAI"
+              target="_blank"
+            >
+              View Github
             </a>
           </div>
           <p>
@@ -62,8 +65,8 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header">
             <h2>LooLooLoo | Hack the North Winner</h2>
-            <a href="google.com" target="_blank">
-              View Project
+            <a href="https://github.com/gordonzhang1/LooLooLoo" target="_blank">
+              View Github
             </a>
           </div>
           <div className="desc-container">
@@ -100,7 +103,7 @@ export default function Projects() {
               href="https://github.com/gordonzhang1/personal-portfolio"
               target="_blank"
             >
-              View Project
+              View Github
             </a>
           </div>
           <p>My Portfolio Project</p>

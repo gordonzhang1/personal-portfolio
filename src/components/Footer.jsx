@@ -6,8 +6,8 @@ export default function Footer() {
     <>
       <div className="footer-container">
         <div className="footer-content">
-          Designed with <a href="figma.com">Figma</a>, Built with{" "}
-          <a href="react.com">React</a>, Deployed with{" "}
+          Designed with <a href="https://www.figma.com/">Figma</a>, Built with{" "}
+          <a href="https://react.dev">React</a>, Deployed with{" "}
           <a href="vercel.com">Vercel</a>
         </div>
       </div>

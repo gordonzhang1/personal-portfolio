@@ -66,3 +66,21 @@
   display: flex;
   justify-content: space-between;
 }
+
+.github {
+  object-fit: cover;
+  width: 9%;
+  height: auto;
+}
+
+.github.loo {
+  object-fit: cover;
+  width: 6%;
+  height: auto;
+}
+
+.github.portfolio {
+  object-fit: cover;
+  width: 4%;
+  height: auto;
+}

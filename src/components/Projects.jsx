@@ -20,8 +20,14 @@ import cloud from "../assets/cloud.png";
 import YAML from "../assets/YAML.png";
 import sa from "../assets/sa-cover.jpeg";
 import portfolio from "../assets/portfolio.png";
+import firestore from "../assets/firestore.png";
+import postman from "../assets/postman.png";
+import github from "../assets/github.png";
+
 export default function Projects() {
-  // Array of project data
+  function handleshake() {
+    window.open("https://github.com/gordonzhang1/ShakespeareAI");
+  }
 
   return (
     <div className="projects">
@@ -29,13 +35,17 @@ export default function Projects() {
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
-            <h2>ShakespeareAI</h2>
-            <a
-              href="https://github.com/gordonzhang1/ShakespeareAI"
-              target="_blank"
-            >
-              View Github
+            <a href="https://shakespeareai.ca">
+              <h2>ShakespeareAI</h2>
             </a>
+            <img
+              onClick={handleshake}
+              className="github"
+              src={github}
+              style={{
+                cursor: "pointer",
+              }}
+            />
           </div>
           <p>
             ShakespeareAI is a AI digital note-taking web app that quizzes you
@@ -54,9 +64,11 @@ export default function Projects() {
             <img className="loo-skill-item" src={git} />
             <img className="loo-skill-item" src={node} />
             <img className="loo-skill-item" src={firebase} />
+            <img className="loo-skill-item" src={firestore} />
             <img className="loo-skill-item" src={cplus} />
             <img className="loo-skill-item" src={openai} />
             <img className="loo-skill-item" src={cloud} />
+            <img className="loo-skill-item" src={postman} />
           </div>
         </div>
         <img className="loo sa" src={sa} />
@@ -65,9 +77,16 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header">
             <h2>LooLooLoo | Hack the North Winner</h2>
-            <a href="https://github.com/gordonzhang1/LooLooLoo" target="_blank">
-              View Github
-            </a>
+            <img
+              onClick={() => {
+                window.open("https://github.com/gordonzhang1/LooLooLoo");
+              }}
+              className="github loo"
+              src={github}
+              style={{
+                cursor: "pointer",
+              }}
+            />
           </div>
           <div className="desc-container">
             <p>Water Water Water, Loo Loo Loo!</p>
@@ -99,12 +118,18 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header portfolio">
             <h2>Personal Portfolio</h2>
-            <a
-              href="https://github.com/gordonzhang1/personal-portfolio"
-              target="_blank"
-            >
-              View Github
-            </a>
+            <img
+              onClick={() => {
+                window.open(
+                  "https://github.com/gordonzhang1/personal-portfolio"
+                );
+              }}
+              className="github portfolio"
+              src={github}
+              style={{
+                cursor: "pointer",
+              }}
+            />
           </div>
           <p>My Portfolio Project</p>
           <div className="loo-skills">

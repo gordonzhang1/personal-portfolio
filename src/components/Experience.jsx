@@ -47,7 +47,6 @@ export default function Experience() {
               control an inverter and send CAN message to modify inverter EEPROM
               parameters
             </li>
-            <li>feat2</li>
           </ul>
         </div>
         <div className="item3">

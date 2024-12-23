@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-content">
           Designed with <a href="https://www.figma.com/">Figma</a>, Built with{" "}
           <a href="https://react.dev">React</a>, Deployed with{" "}
-          <a href="vercel.com">Vercel</a>
+          <a href="https://vercel.com">Vercel</a>
         </div>
       </div>
     </>
